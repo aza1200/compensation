@@ -12,7 +12,6 @@ import lombok.*;
 public class OutofStock extends AbstractEvent {
 
     private Long id;
-    private Long stock;
     private Integer stock;
 
     public OutofStock(Inventory aggregate) {
